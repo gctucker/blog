@@ -61,7 +61,7 @@ ROOT_URLCONF = 'gtucker_blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/gtucker/src/gtucker_blog/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
