@@ -2,3 +2,4 @@
 db.sqlite3
 static/zinnia/theme/.sass-cache
 *.css.map
+gtucker_blog/local_settings.py
