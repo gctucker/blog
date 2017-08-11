@@ -61,7 +61,7 @@ ROOT_URLCONF = 'gtucker_blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/gtucker/src/gtucker_blog/templates',],
+        'DIRS': ['/home/gtucker/src/gtucker_blog/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -126,3 +126,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    '/home/gtucker/src/gtucker_blog/static',
+]
