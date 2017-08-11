@@ -1,2 +1,4 @@
 *.pyc
 db.sqlite3
+static/zinnia/theme/.sass-cache
+*.css.map
