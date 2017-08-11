@@ -192,8 +192,6 @@ table {
     margin-top: 0.5em;
     margin-bottom: 0;
     font-weight: bold; }
-    .zinnia #header h1:first-letter {
-      font-size: 130%; }
   .zinnia #header blockquote {
     border: none;
     background: none;
